@@ -1,1 +1,473 @@
-test
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATUNITY • Bot WhatsApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-logo">CHATUNITY</div>
+        <div class="loading-text">Caricando Bot WhatsApp...</div>
+    </div>
+
+    <div class="bg-environment">
+        <div class="floating-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+
+    <main class="hero" id="home">
+        <h1 class="hero-title">CHATUNITY</h1>
+        <p class="hero-subtitle">
+            I bot WhatsApp più avanzati al mondo. Download YouTube, sticker maker, AI chat, 
+            musica e 500+ comandi premium per il tuo gruppo.
+        </p>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Comandi Bot</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Bot Online</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">15K+</span>
+                <span class="stat-label">Gruppi Attivi</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">∞</span>
+                <span class="stat-label">Possibilità</span>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </main>
+
+    <section class="section" id="features">
+        <h2 class="section-title">🤖 Bot Features</h2>
+        
+        <div class="cta-container" style="margin-bottom: 2rem;">
+            <button class="cta-btn cta-primary">📋 Lista Comandi</button>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <h3 class="feature-title">YouTube Downloader</h3>
+                <p class="feature-desc">
+                    Scarica video e audio da YouTube direttamente in chat. Supporta HD, playlist e conversione MP3.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3 class="feature-title">AI ChatGPT</h3>
+                <p class="feature-desc">
+                    Intelligenza artificiale avanzata per conversazioni, traduzioni, codice e risposte intelligenti.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h3 class="feature-title">Music Player</h3>
+                <p class="feature-desc">
+                    Riproduci musica da Spotify, YouTube Music e SoundCloud. Playlist condivise e qualità premium.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-images"></i>
+                </div>
+                <h3 class="feature-title">Sticker Maker</h3>
+                <p class="feature-desc">
+                    Crea sticker personalizzati da foto, GIF animate e pack completi per il tuo gruppo WhatsApp.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3 class="feature-title">Anti-Spam</h3>
+                <p class="feature-desc">
+                    Protezione automatica da spam, link pericolosi e messaggi indesiderati con filtri AI.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <h3 class="feature-title">Mini Games</h3>
+                <p class="feature-desc">
+                    Giochi interattivi in chat: quiz, indovinelli, trivia e competizioni per animare il gruppo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section" id="team">
+        <div class="section">
+            <h2 class="section-title">👥 Dev Team</h2>
+            
+            <div class="cta-container" style="margin-bottom: 2rem;">
+                <button class="cta-btn cta-secondary">💬 Contatta Team</button>
+            </div>
+            
+            <div class="slider-container">
+                <div class="team-slider">
+                    <div class="team-track" id="teamTrack">
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <h3 class="team-name">Vale</h3>
+                            <p class="team-role">Proprietario</p>
+                            <a href="https://wa.me/393515533859" class="team-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +39 351 553 3859
+                            </a>
+                        </div>
+
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h3 class="team-name">Gab 333</h3>
+                            <p class="team-role">Developer Sito & App & Plugin</p>
+                            <a href="https://wa.me/393234567890" class="team-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +39 323 456 7890
+                            </a>
+                        </div>
+
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h3 class="team-name">Davide Turbo</h3>
+                            <p class="team-role">Developer Plugin</p>
+                            <a href="https://wa.me/393345678901" class="team-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +39 334 567 8901
+                            </a>
+                        </div>
+
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-skull"></i>
+                            </div>
+                            <h3 class="team-name">Death</h3>
+                            <p class="team-role">Developer Plugin Security</p>
+                            <a href="https://wa.me/447365589428" class="team-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +44 7365 589428
+                            </a>
+                        </div>
+
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3 class="team-name">Kinderino</h3>
+                            <p class="team-role">Developer Plugin Security</p>
+                            <a href="https://wa.me/393335608801" class="team-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +39 333 560 8801
+                            </a>
+                        </div>
+
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="team-name">Sam</h3>
+                            <p class="team-role">Developer Plugin</p>
+                            <a href="https://wa.me/393476686131" class="team-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +39 347 668 6131
+                            </a>
+                        </div>
+
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h3 class="team-name">Kekko</h3>
+                            <p class="team-role">Developer Plugin + Supporto</p>
+                            <a href="https://wa.me/12895361012" class="team-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +1 (289) 536-1012
+                            </a>
+                        </div>
+
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3 class="team-name">Axtral</h3>
+                            <p class="team-role">Supporto + Developer</p>
+                            <a href="https://wa.me/85620576000084" class="team-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +856 20 57 600 084
+                            </a>
+                        </div>
+
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-dog"></i>
+                            </div>
+                            <h3 class="team-name">Anubi</h3>
+                            <p class="team-role">Developer Plugin + Supporto</p>
+                            <a href="https://wa.me/27746449887" class="team-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +27 74 644 9887
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nav-arrows">
+                    <button class="nav-arrow" onclick="slideTeam('left')">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="nav-arrow" onclick="slideTeam('right')">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bot-numbers-section" id="bots">
+        <div class="section">
+            <h2 class="section-title">🤖 Bot Disponibili</h2>
+            
+            <div class="slider-container">
+                <div class="bot-slider">
+                    <div class="bot-track" id="botTrack">
+                        <div class="bot-card">
+                            <div class="bot-avatar">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <h3 class="bot-name">YT Downloader Bot</h3>
+                            <p class="bot-desc">Download YouTube HD</p>
+                            <a href="https://wa.me/393567890123" class="bot-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +39 356 789 0123
+                            </a>
+                        </div>
+
+                        <div class="bot-card">
+                            <div class="bot-avatar">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3 class="bot-name">ChatGPT Bot</h3>
+                            <p class="bot-desc">AI Assistant</p>
+                            <a href="https://wa.me/393678901234" class="bot-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +39 367 890 1234
+                            </a>
+                        </div>
+
+                        <div class="bot-card">
+                            <div class="bot-avatar">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <h3 class="bot-name">Music Bot</h3>
+                            <p class="bot-desc">Spotify & YouTube Music</p>
+                            <a href="https://wa.me/393789012345" class="bot-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +39 378 901 2345
+                            </a>
+                        </div>
+
+                        <div class="bot-card">
+                            <div class="bot-avatar">
+                                <i class="fas fa-images"></i>
+                            </div>
+                            <h3 class="bot-name">Sticker Bot</h3>
+                            <p class="bot-desc">Sticker Maker Pro</p>
+                            <a href="https://wa.me/393890123456" class="bot-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +39 389 012 3456
+                            </a>
+                        </div>
+
+                        <div class="bot-card">
+                            <div class="bot-avatar">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <h3 class="bot-name">Games Bot</h3>
+                            <p class="bot-desc">Mini Games & Quiz</p>
+                            <a href="https://wa.me/393901234567" class="bot-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +39 390 123 4567
+                            </a>
+                        </div>
+
+                        <div class="bot-card">
+                            <div class="bot-avatar">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3 class="bot-name">Security Bot</h3>
+                            <p class="bot-desc">Anti-Spam Protection</p>
+                            <a href="https://wa.me/393012345678" class="bot-whatsapp">
+                                <i class="fab fa-whatsapp"></i> +39 301 234 5678
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nav-arrows">
+                    <button class="nav-arrow" onclick="slideBots('left')">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="nav-arrow" onclick="slideBots('right')">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="footer-logo">CHATUNITY</div>
+        <p style="color: var(--white); margin-bottom: 2rem; opacity: 0.8;">
+            🤖 I bot WhatsApp più avanzati per il tuo gruppo
+        </p>
+        
+        <div class="social-links">
+            <a href="#" class="social-link">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        
+        <p style="color: var(--primary); opacity: 0.7;">
+            © 2025 Chatunity • Bot Revolution 🚀
+        </p>
+    </footer>
+
+    <script>
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loadingOverlay').classList.add('fade-out');
+            }, 1000);
+        });
+
+        document.querySelectorAll('.cta-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                this.style.transform = 'scale(0.98)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 100);
+            });
+        });
+
+        document.querySelector('.scroll-indicator').addEventListener('click', () => {
+            document.querySelector('#features').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+
+        let ticking = false;
+        
+        function updateOnScroll() {
+            ticking = false;
+        }
+
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(updateOnScroll);
+                ticking = true;
+            }
+        });
+
+        if ('ontouchstart' in window) {
+            document.body.style.webkitOverflowScrolling = 'touch';
+            document.body.style.overflowScrolling = 'touch';
+        }
+
+        let teamCurrentIndex = 0;
+        let botCurrentIndex = 0;
+        const cardWidth = 296;
+        let teamAutoScrollInterval;
+        let isTeamManualControl = false;
+
+        function slideTeam(direction) {
+            const teamTrack = document.getElementById('teamTrack');
+            const maxCards = teamTrack.children.length;
+            const visibleCards = 1;
+            const maxIndex = maxCards - visibleCards;
+            
+            isTeamManualControl = true;
+            clearInterval(teamAutoScrollInterval);
+            
+            if (direction === 'right') {
+                teamCurrentIndex = teamCurrentIndex >= maxIndex ? 0 : teamCurrentIndex + 1;
+            } else {
+                teamCurrentIndex = teamCurrentIndex <= 0 ? maxIndex : teamCurrentIndex - 1;
+            }
+            
+            teamTrack.style.transform = `translateX(-${teamCurrentIndex * cardWidth}px)`;
+            
+            setTimeout(() => {
+                isTeamManualControl = false;
+                startTeamAutoScroll();
+            }, 5000);
+        }
+
+        function slideBots(direction) {
+            const botTrack = document.getElementById('botTrack');
+            const maxCards = botTrack.children.length;
+            const visibleCards = 1;
+            const maxIndex = maxCards - visibleCards;
+            
+            if (direction === 'right') {
+                botCurrentIndex = botCurrentIndex >= maxIndex ? 0 : botCurrentIndex + 1;
+            } else {
+                botCurrentIndex = botCurrentIndex <= 0 ? maxIndex : botCurrentIndex - 1;
+            }
+            
+            botTrack.style.transform = `translateX(-${botCurrentIndex * cardWidth}px)`;
+        }
+
+        function autoSlideTeam() {
+            if (isTeamManualControl) return;
+            
+            const teamTrack = document.getElementById('teamTrack');
+            const maxCards = teamTrack.children.length;
+            const visibleCards = 1;
+            const maxIndex = maxCards - visibleCards;
+            
+            teamCurrentIndex = teamCurrentIndex >= maxIndex ? 0 : teamCurrentIndex + 1;
+            teamTrack.style.transform = `translateX(-${teamCurrentIndex * cardWidth}px)`;
+        }
+
+        function startTeamAutoScroll() {
+            if (!isTeamManualControl) {
+                teamAutoScrollInterval = setInterval(autoSlideTeam, 3000);
+            }
+        }
+
+        setTimeout(() => {
+            startTeamAutoScroll();
+        }, 2000);
+    </script>
+</body>
+</html>
